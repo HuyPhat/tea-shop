@@ -1,0 +1,16 @@
+{
+  "productList": [
+    {
+      "id": 0,
+      "title": "SẢN PHẨM MỚI KHUYẾN MÃI",
+      "products": [
+        {"id": 0, "url": "/images/productList/3_large.jpg", "wasPrice": 160000, "nowPrice": 135000, "name": "Trà cúc san hô"},
+        {"id": 0, "url": "/images/productList/file_49_30_large.jpg", "wasPrice": null, "nowPrice": 135000, "name": "Trà hoa anh đào "},
+        {"id": 0, "url": "/images/productList/hbc1_large.jpg", "wasPrice": null, "nowPrice": 135000, "name": "Trà hoa dâm bụt (hibicus)"},
+        {"id": 0, "url": "/images/productList/5_large.jpg", "wasPrice": 235000, "nowPrice": 185000, "name": "Trà hoa đậu biếc "},
+        {"id": 0, "url": "/images/productList/ttc1_large.jpg", "wasPrice": 250000, "nowPrice": 175000, "name": "Trà hoa quả Bali"},
+        {"id": 0, "url": "/images/productList/1_large.jpg", "wasPrice": 199000, "nowPrice": 150000, "name": "Trà hoa rum "}
+      ]
+    }
+  ]
+}

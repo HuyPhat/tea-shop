@@ -1,0 +1,72 @@
+@import "Variables";
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+html, button, input, select, textarea {
+  //font-family: $font-family-page;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  //font-family: $font-family-page;
+  background: $background-color-body-white;
+}
+
+header {
+  display: block;
+}
+
+#app {
+  max-width: 1380px;
+  margin: auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: -webkit-flex;
+  display: box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -ms-box-orient: vertical;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  overflow: hidden;
+  @media (max-width: 1360px) {
+    width: 1130px!important;
+  }
+  @media (max-width: 1180px) {
+    width: 100%!important;
+  }
+  #middle {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    opacity: 1;
+    filter: none;
+    transition: opacity .3s ease;
+    margin-top: 50px;
+    @media (max-width: 1180px) {
+      margin-top: 45px !important;
+    }
+  }
+  #middle1 {
+    margin-top: 80px;
+  }
+} //#app
+
+#leftSidebar {
+  -webkit-box-flex: 1;
+  font-size: .9em;
+  z-index: 99999;
+  box-sizing: border-box;
+  transition: transform .2s ease;
+  @media (max-width: 1180px) {
+    flex: 0!important;
+  }
+}

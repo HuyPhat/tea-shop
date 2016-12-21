@@ -1,0 +1,124 @@
+@import "../../stylesheets/Variables";
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999999;
+  transition: transform .25s ease;
+
+  #headerInner {
+    transition: transform .3s ease;
+  }
+
+  #topBar {
+    width: 100%;
+    background: $navbar-background-color-2;
+    border-bottom: 1px solid $navbar-border-color;
+    height: 45px;
+    font-weight: 400;
+    font-size: .9em;
+    color: $navbar-text-color;
+    line-height: 45px;
+    #topBarInner {
+      position: relative;
+      //width: 1380px;
+      //min-width: 985px;
+      height: 45px;
+      margin: auto;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-box;
+      display: -webkit-flex;
+      display: box;
+      display: flex;
+      -webkit-box-pack: justify;
+      -moz-box-pack: justify;
+      -o-box-pack: justify;
+      -ms-box-pack: justify;
+      -webkit-justify-content: space-between;
+      justify-content: space-between;
+    }
+    #topBarInner > div.navLeft {
+      -webkit-box-flex: 1;
+      -moz-box-flex: 1;
+      -o-box-flex: 1;
+      -ms-box-flex: 1;
+      -webkit-box-flex: 1;
+      -moz-box-flex: 1;
+      -o-box-flex: 1;
+      -ms-box-flex: 1;
+      box-flex: 1;
+      -webkit-flex-grow: 1;
+      flex-grow: 1;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-box;
+      display: -webkit-flex;
+      display: box;
+      display: flex;
+
+      #showMenu {
+        display: none;
+        margin-right: 10px;
+        border-right: 1px solid $navbar-border-color;
+        width: 50px;
+        height: 45px;
+        a.menu {
+          position: relative;
+          width: 100%;
+          padding: 10px 0 10px;
+          display: inline-block;
+          span {
+            width: 26px;
+            height: 2px;
+            background: $navbar-border-color;
+            margin: 5px auto;
+            display: block;
+          }
+        }
+        @media (max-width:1180px) {
+          display: block !important;
+          transition: all .2s ease;
+        }
+        @media (max-width: 500px) {
+          width: 55px;
+        }
+      }
+
+      #logo {
+        width: 145px;
+        line-height: 43px;
+      }
+
+      .iconLogo {
+        margin: 12px 0;
+      }
+    }
+    #topBarInner > div.navLeft > div {
+      float: left;
+    }
+
+    #topBarInner > div.navLeft > div > a {
+      color: #fff;
+      text-decoration: none;
+      display: block;
+      //padding: 0 14px;
+      position: relative;
+      font-weight: 700;
+      height: 45px;
+      overflow: hidden;
+    }
+  }
+}
+
+.iconLogo {
+  margin: auto;
+  display: block;
+  height: auto;
+  width: 116px;
+  vertical-align: middle;
+}
+
+

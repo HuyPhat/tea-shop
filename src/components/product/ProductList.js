@@ -1,7 +1,7 @@
 /**
  * Created by nowwe on 21/12/2016.
  */
-import React, {Component} from 'react'
+import React from 'react'
 import {Col} from 'react-bootstrap'
 import ProductItem from './ProductItem'
 import './ProductList.scss'

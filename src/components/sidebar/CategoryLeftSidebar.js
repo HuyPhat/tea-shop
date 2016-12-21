@@ -5,6 +5,11 @@ import React, {Component} from 'react'
 import './CategoryLeftSidebar.scss'
 
 class CategoryLeftSidebar extends Component {
+    handleSelectCategory = (e, id) => {
+        e.preventDefault()
+        this.props.onSelectCategory(id)
+    }
+
     render() {
         const {category} = this.props
         return (
@@ -13,7 +18,7 @@ class CategoryLeftSidebar extends Component {
                 <ul className="nav category-overview-list-content">
                     {category.map((item,index) =>
                         <li key={index} className="category-overview-list-item">
-                            <a className="category-overview-list-item-link" href="/tea">{item.title}</a>
+                            <a className="category-overview-list-item-link" href="#" onClick={(event) => this.handleSelectCategory(event, item.id)}>{item.title}</a>
                         </li>
                     )}
                 </ul>

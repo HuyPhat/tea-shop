@@ -1,0 +1,28 @@
+{
+  "data": {
+    "category": [
+      {
+        "id": 0,
+        "title": "TRÀ AN THẦN",
+        "products": [
+          {"id": 0, "title": "Trà hoa chi bản", "url": "/images/products/1_large.jpg", "wasPrice": null, "nowPrice": "85000"},
+          {"id": 1, "title": "Trà hoa lưu ly", "url": "/images/products/img_8336_large.jpg", "wasPrice": null, "nowPrice": "85000"},
+          {"id": 2, "title": "Trà nụ tam thất", "url": "/images/products/img_8359_fbd5e2a7-eac8-4d9b-4989-c103d46aa709_large.jpg", "wasPrice": null, "nowPrice": "85000"},
+          {"id": 3, "title": "Trà oải hương (lavender)", "url": "/images/products/img_8328_large.jpg", "wasPrice": null, "nowPrice": "85000"}
+        ]
+      },
+      {
+        "id": 1,
+        "title": "THẢO DƯỢC TĂNG VỊ",
+        "products": [
+          {"id": 0, "title": "Trà bạc hà", "url": "/images/products/img_8295_large.jpg", "wasPrice": null, "nowPrice": "85000"},
+          {"id": 1, "title": "Trà cam thảo", "url": "/images/products/img_8334_large.jpg", "wasPrice": null, "nowPrice": "85000"},
+          {"id": 2, "title": "Trà chanh vàng", "url": "/images/products/img_8373_large.jpg", "wasPrice": null, "nowPrice": "85000"},
+          {"id": 3, "title": "Trà cỏ ngọt", "url": "/images/products/img_8358_large.jpg", "wasPrice": null, "nowPrice": "85000"},
+          {"id": 4, "title": "Trà hương thảo", "url": "/images/products/img_8356_large.jpg", "wasPrice": null, "nowPrice": "85000"},
+          {"id": 5, "title": "Trà quế", "url": "/images/products/img_8360_large.jpg", "wasPrice": null, "nowPrice": "85000"}
+        ]
+      }
+    ]
+  }
+}

@@ -2,7 +2,7 @@
  * Created by nowwe on 21/12/2016.
  */
 import React from 'react'
-import {Image, Glyphicon} from 'react-bootstrap'
+import {Image} from 'react-bootstrap'
 import './ProductItem.scss'
 
 const ProductItem = ({data}) => {
@@ -11,7 +11,7 @@ const ProductItem = ({data}) => {
             <div className="product-img image-resize view view-third">
                 <a href={`product/${data.id}`} title={data.name}>
                     <div className="mask">
-                        <img/>
+                        <img role="presentation"/>
                     </div>
                     <Image alt="Trà cúc san hô" src={data.url} responsive/>
                 </a>

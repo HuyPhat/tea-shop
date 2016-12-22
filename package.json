@@ -50,9 +50,6 @@
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "font-awesome": "^4.7.0",
-    "font-awesome-sass-loader": "^1.0.3",
-    "font-awesome-webpack": "0.0.4",
     "react": "^15.4.1",
     "react-bootstrap": "^0.30.7",
     "react-dom": "^15.4.1",

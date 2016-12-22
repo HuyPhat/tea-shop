@@ -1,0 +1,23 @@
+#middle1 {
+  #pdpBLock {
+    .pdpNameContainer {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .pdpPriceContainer {
+      .nowPrice {
+        font-size: 24px;
+        font-size: 2.4rem;
+        font-weight: 700;
+        color: #ff5722;
+        text-transform: capitalize;
+      }
+    }
+    .description-container {
+      margin-top: 20px;
+      color: darkcyan;
+    }
+  }
+}

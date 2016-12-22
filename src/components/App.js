@@ -8,7 +8,6 @@ import '../stylesheets/App.scss';
 import dataCategory from '../../response/category.json'
 // import dataProductList from '../../response/product-list.json'
 import dataCategoryProducts from '../../response/category-products.json'
-import 'font-awesome/css/font-awesome.css'
 
 class App extends Component {
 

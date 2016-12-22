@@ -4,6 +4,7 @@
 import React from 'react'
 import {Image} from 'react-bootstrap'
 import './ProductItem.scss'
+import {Link} from 'react-router'
 
 const ProductItem = ({data}) => {
     return (
@@ -21,7 +22,10 @@ const ProductItem = ({data}) => {
                 <p className="wasprice">
                     <del>{data.wasPrice}</del>
                 </p>
-                <div className="product-name"><a href={`product/${data.id}`}>{data.title}</a></div>
+                <div className="product-name">
+                    {/*<a href={`product/${data.id}`}>{data.title}</a>*/}
+                    <Link onlyActiveOnIndex={false} to={`/product/${data.id}`}>{data.title}</Link>
+                </div>
             </div>
         </div>
     )

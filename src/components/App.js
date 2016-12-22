@@ -40,7 +40,7 @@ class App extends Component {
                 <header id="navbar">
                     <NavBar showMenu={this.showMenu}/>
                 </header>
-                <section id="middle1" className="clearfix container">
+                <section id="middle1" className="container">
                     <aside id="leftSidebar1" className="col-md-3 col-sm-12 col-xs-12 ">
                         <CategoryLeftSidebar category={categories}/>
                     </aside>

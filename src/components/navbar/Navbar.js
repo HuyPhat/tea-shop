@@ -17,7 +17,7 @@ class Navbar extends Component {
             <div>
                 <div id="headerInner">
                     <section id="topBar">
-                        <div id="topBarInner" className="container">
+                        <div id="topBarInner" className="">
                             <div className="navLeft">
                                 <div id="showMenu">
                                     <a className="menu" href="#" onClick={this.showMenu}>

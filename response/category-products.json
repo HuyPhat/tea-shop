@@ -5,12 +5,11 @@
         "id": 0,
         "title": "SẢN PHẨM MỚI KHUYẾN MÃI",
         "products": [
-          {"id": 0, "url": "/images/productList/3_large.jpg", "wasPrice": 160000, "nowPrice": 135000, "title": "Trà cúc san hô"},
-          {"id": 1, "url": "/images/productList/file_49_30_large.jpg", "wasPrice": null, "nowPrice": 135000, "title": "Trà hoa anh đào "},
-          {"id": 2, "url": "/images/productList/hbc1_large.jpg", "wasPrice": null, "nowPrice": 135000, "title": "Trà hoa dâm bụt (hibicus)"},
-          {"id": 3, "url": "/images/productList/5_large.jpg", "wasPrice": 235000, "nowPrice": 185000, "title": "Trà hoa đậu biếc "},
-          {"id": 4, "url": "/images/productList/ttc1_large.jpg", "wasPrice": 250000, "nowPrice": 175000, "title": "Trà hoa quả Bali"},
-          {"id": 5, "url": "/images/productList/1_large.jpg", "wasPrice": 199000, "nowPrice": 150000, "title": "Trà hoa rum "}
+          {"id": 0, "url": "/images/productList/3_large.jpg", "wasPrice": "đ160.000", "nowPrice": "đ135.000", "title": "Trà cúc san hô"},
+          {"id": 1, "url": "/images/productList/file_49_30_large.jpg", "wasPrice": "đ160.000", "nowPrice": "đ135.000", "title": "Trà hoa anh đào "},
+          {"id": 2, "url": "/images/productList/hbc1_large.jpg", "wasPrice": "đ160.000", "nowPrice": "đ135.000", "title": "Trà hoa dâm bụt (hibicus)"},
+          {"id": 3, "url": "/images/productList/5_large.jpg", "wasPrice": "đ235.000", "nowPrice": "đ185.000", "title": "Trà hoa đậu biếc "},
+          {"id": 4, "url": "/images/productList/ttc1_large.jpg", "wasPrice": "đ250.000", "nowPrice": "đ175.000", "title": "Trà hoa quả Bali"}
         ]
       },
       {

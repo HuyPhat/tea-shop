@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import NavBar from './navbar/Navbar'
 // import MainSidebar from './sidebar/MainSidebar'
-// import CategoryLeftSidebar from './sidebar/CategoryLeftSidebar'
+import CategoryLeftSidebar from './sidebar/CategoryLeftSidebar'
 // import ProductList from './product/ProductList'
 import 'bootstrap/dist/css/bootstrap.css';
 import '../stylesheets/App.scss';
@@ -17,7 +17,7 @@ class App extends Component {
         this.productsByCat = dataCategoryProducts.data
         this.state = {
             showMenu: false,
-            // productList: dataProductList.productList,
+            loading: true,
             pickedCategory: this.productsByCat.category[0]
         }
     }
@@ -27,32 +27,28 @@ class App extends Component {
         this.setState({showMenu: !showMenu})
     }
 
-    // handleSelectCategory = (categoryId) => {
-    //     if (parseInt(categoryId,10) || categoryId === 0) {
-    //         console.log("Category ", categoryId)
-    //         const productsByCat = this.productsByCat.category
-    //         const pickedCategory = productsByCat.find((category) => {
-    //             return category.id === categoryId
-    //         })
-    //         console.log('products ', pickedCategory)
-    //         this.setState({pickedCategory})
-    //     }
-    //     else {
-    //         console.log('All Products')
-    //     }
-    //
-    // }
+    componentDidMount() {
+        console.log('aaa')
+        this.setState({loading: false})
+    }
 
     render() {
-        // const categories = this.productsByCat.category
-        // const {productList, pickedCategory} = this.state
+        const categories = this.productsByCat.category
+        const {loading} = this.state
         return (
             <div id='app' className={`${this.state.showMenu ? 'showMenu' : ''}`}>
                 <header id="navbar">
                     <NavBar showMenu={this.showMenu}/>
                 </header>
                 <section id="middle1" className="clearfix container">
-                    {this.props.children}
+                    <aside id="leftSidebar1" className="col-md-3 col-sm-12 col-xs-12 ">
+                        <CategoryLeftSidebar category={categories}/>
+                    </aside>
+                    <div className="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                        <div className="main-content">
+                            {loading ? <div>Loading....</div> : this.props.children}
+                        </div>
+                    </div>
                 </section>
                 <footer id="footer"></footer>
             </div>

@@ -51,9 +51,9 @@ class Home extends React.Component {
         const {pickedCategory,loading} = this.state
         return (
             <div>
-                <aside id="leftSidebar1" className="col-md-3 col-sm-12 col-xs-12 hidden-sm hidden-xs">
-                    <CategoryLeftSidebar category={categories} onSelectCategory={this.handleSelectCategory}/>
-                </aside>
+                {/*<aside id="leftSidebar1" className="col-md-3 col-sm-12 col-xs-12 hidden-sm hidden-xs">*/}
+                    {/*<CategoryLeftSidebar category={categories} onSelectCategory={this.handleSelectCategory}/>*/}
+                {/*</aside>*/}
                 <div className="col-lg-9 col-md-9 col-sm-12 col-xs-12">
                     <div className="main-content">
                         {loading ? <div>Loading....</div> : <ProductList data={pickedCategory} />}

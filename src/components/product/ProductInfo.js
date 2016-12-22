@@ -16,9 +16,10 @@ class ProductInfo extends Component {
         this.state = {foundProduct: null}
     }
 
-    // componentWillReceiveProps(newProps) {
-    //     console.log('willReceiveProps', newProps.params.id)
-    // }
+    componentWillReceiveProps(newProps) {
+        console.log('willReceiveProps', newProps)
+        debugger
+    }
 
     componentDidMount() {
         const productId = this.props.params.id === "0" ? 0 : parseInt(this.props.params.id, 10)

@@ -1,5 +1,5 @@
 /**
- * Created by nowwe on 21/12/2016.
+ * Created by nowwe on 22/12/2016.
  */
 import React from 'react'
 import {Col} from 'react-bootstrap'
@@ -7,7 +7,7 @@ import ProductItem from './ProductItem'
 import './ProductList.scss'
 import dataCategoryProducts from '../../../response/category-products.json'
 
-class ProductList extends React.Component {
+class ProductGrid extends React.Component {
     constructor(props) {
         super(props)
         this.productsByCat = dataCategoryProducts.data
@@ -78,4 +78,4 @@ class ProductList extends React.Component {
     }
 }
 
-export default ProductList
+export default ProductGrid

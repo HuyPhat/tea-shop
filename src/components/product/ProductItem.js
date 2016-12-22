@@ -9,7 +9,7 @@ const ProductItem = ({data}) => {
     return (
         <div className="product-block product-resize fixheight">
             <div className="product-img image-resize view view-third">
-                <a href={`product/${data.id}`} title={data.name}>
+                <a href={`product/${data.id}`} title={data.title}>
                     <div className="mask">
                         <img role="presentation"/>
                     </div>
@@ -17,11 +17,11 @@ const ProductItem = ({data}) => {
                 </a>
             </div>
             <div className="product-detail clearfix">
-                <p className="nowprice">135,000₫</p>
+                <p className="nowprice">{data.nowPrice}</p>
                 <p className="wasprice">
-                    <del>160,000₫</del>
+                    <del>{data.wasPrice}</del>
                 </p>
-                <div className="product-name"><a href={`product/${data.id}`}>{data.name}</a></div>
+                <div className="product-name"><a href={`product/${data.id}`}>{data.title}</a></div>
             </div>
         </div>
     )

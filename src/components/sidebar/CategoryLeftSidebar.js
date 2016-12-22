@@ -14,8 +14,9 @@ class CategoryLeftSidebar extends Component {
         const {category} = this.props
         return (
             <div className="list-group category-overview-left">
-                <a className="category-overview-list-header">Danh mục sản phẩm</a>
+                <a className="category-overview-list-header">DANH MỤC SẢN PHẨM</a>
                 <ul className="nav category-overview-list-content">
+                    <li className="category-overview-list-item"><a className="category-overview-list-item-link" href="#" onClick={(event) => this.handleSelectCategory(event, "all")}>TẤT CẢ SẢN PHẨM</a></li>
                     {category.map((item,index) =>
                         <li key={index} className="category-overview-list-item">
                             <a className="category-overview-list-item-link" href="#" onClick={(event) => this.handleSelectCategory(event, item.id)}>{item.title}</a>

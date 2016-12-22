@@ -3,16 +3,28 @@
     "category": [
       {
         "id": 0,
+        "title": "SẢN PHẨM MỚI KHUYẾN MÃI",
+        "products": [
+          {"id": 0, "url": "/images/productList/3_large.jpg", "wasPrice": 160000, "nowPrice": 135000, "title": "Trà cúc san hô"},
+          {"id": 0, "url": "/images/productList/file_49_30_large.jpg", "wasPrice": null, "nowPrice": 135000, "title": "Trà hoa anh đào "},
+          {"id": 0, "url": "/images/productList/hbc1_large.jpg", "wasPrice": null, "nowPrice": 135000, "title": "Trà hoa dâm bụt (hibicus)"},
+          {"id": 0, "url": "/images/productList/5_large.jpg", "wasPrice": 235000, "nowPrice": 185000, "title": "Trà hoa đậu biếc "},
+          {"id": 0, "url": "/images/productList/ttc1_large.jpg", "wasPrice": 250000, "nowPrice": 175000, "title": "Trà hoa quả Bali"},
+          {"id": 0, "url": "/images/productList/1_large.jpg", "wasPrice": 199000, "nowPrice": 150000, "title": "Trà hoa rum "}
+        ]
+      },
+      {
+        "id": 1,
         "title": "TRÀ AN THẦN",
         "products": [
-          {"id": 0, "title": "Trà hoa chi bản", "url": "/images/products/1_large.jpg", "wasPrice": null, "nowPrice": "85000"},
+          {"id": 0, "title": "Trà hoa chi bản", "url": "/images/products/img_8326_copy_large.jpg", "wasPrice": null, "nowPrice": "85000"},
           {"id": 1, "title": "Trà hoa lưu ly", "url": "/images/products/img_8336_large.jpg", "wasPrice": null, "nowPrice": "85000"},
           {"id": 2, "title": "Trà nụ tam thất", "url": "/images/products/img_8359_fbd5e2a7-eac8-4d9b-4989-c103d46aa709_large.jpg", "wasPrice": null, "nowPrice": "85000"},
           {"id": 3, "title": "Trà oải hương (lavender)", "url": "/images/products/img_8328_large.jpg", "wasPrice": null, "nowPrice": "85000"}
         ]
       },
       {
-        "id": 1,
+        "id": 2,
         "title": "THẢO DƯỢC TĂNG VỊ",
         "products": [
           {"id": 0, "title": "Trà bạc hà", "url": "/images/products/img_8295_large.jpg", "wasPrice": null, "nowPrice": "85000"},

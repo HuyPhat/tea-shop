@@ -1,7 +1,6 @@
 {
   "category": [
-    {"id": 0, "title": "Tất cả sản phẩm"},
-    {"id": 1, "title": "Trà an thần"},
-    {"id": 2, "title": "Trà tăng cường sức khỏe"}
+    {"id": 0, "title": "Trà an thần"},
+    {"id": 1, "title": "Trà tăng cường sức khỏe"}
   ]
 }

@@ -18,7 +18,6 @@ class ProductInfo extends Component {
 
     componentWillReceiveProps(newProps) {
         console.log('willReceiveProps', newProps)
-        debugger
     }
 
     componentDidMount() {

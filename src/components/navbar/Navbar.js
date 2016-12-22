@@ -2,6 +2,7 @@
  * Created by nowwe on 21/12/2016.
  */
 import React, {Component} from 'react'
+import {Link} from 'react-router'
 import './Navbar.scss'
 
 class Navbar extends Component {
@@ -26,9 +27,9 @@ class Navbar extends Component {
                                     </a>
                                 </div>
                                 <div id="logo">
-                                    <a href="/" id="logoInner">
+                                    <Link to={'/'} id="logoInner">
                                         <img className="iconLogo" src="/images/logo.png" role="presentation"/>
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div id="showMenu"></div>
                             </div>
